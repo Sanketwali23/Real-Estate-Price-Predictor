@@ -5,6 +5,11 @@ A Machine Learning web application that predicts **residential property prices i
 The project covers the complete ML workflow — from **raw data cleaning and feature engineering to model training, evaluation, and cloud deployment**.
 
 ## 🚀 Live Demo
+## 🖥️ Application Preview
+
+<p align="center">
+  <img src="screenshots/app_preview.png" alt="Bengaluru House Price Predictor" width="850">
+</p>
 
 ### 👉 [Try the Live Application](https://real-estate-price-predictor23.streamlit.app/)
 
