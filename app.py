@@ -13,6 +13,34 @@ st.set_page_config(
     layout="centered"
 )
 
+# ============================================================
+# SIDEBAR
+# ============================================================
+
+with st.sidebar:
+    st.title("🏠 About")
+
+    st.write(
+        """
+        **Bengaluru House Price Predictor**
+
+        Machine Learning application for estimating
+        residential property prices in Bengaluru.
+        """
+    )
+
+    st.divider()
+
+    st.subheader("🤖 Model")
+    st.write("Random Forest Regressor")
+
+    st.subheader("📊 Performance")
+    st.write("R² Score: **69.4%**")
+    st.write("MAE: **₹29.19 Lakhs**")
+
+    st.divider()
+
+    st.caption("Built with Python • Scikit-Learn • Streamlit")
 
 # ============================================================
 # 2. LOAD MODEL AND DATA
